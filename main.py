@@ -9,7 +9,6 @@ import random
 
 today = datetime.now()
 todays = today.strftime('%Y-%m-%d %A') 
-start_date = os.environ['START_DATE']
 city = os.environ['CITY']
 gaokao = os.environ['GAOKAO']
 

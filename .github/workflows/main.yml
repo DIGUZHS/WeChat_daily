@@ -27,5 +27,5 @@ jobs:
       APP_SECRET: ${{ secrets.APP_SECRET }}
       TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
       USER_ID: ${{ secrets.USER_ID }}
-      gaokao: ${{ secrets.GAOKAO }}
+      GAOKAO: ${{ secrets.GAOKAO }}
       CITY: ${{ secrets.CITY }}

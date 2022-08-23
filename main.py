@@ -62,3 +62,4 @@ wm = WeChatMessage(client)
 data = {"date":{"value":todays, "color":get_random_color()}, "city":{"value":city}, "weather":{"value": weather_data['weather']},"min_temperature":{"value":weather_data['lowest'],"color":"#7FBA00"},"max_temperature":{"value":weather_data['highest'], "color":"#F25022"}, "pop":{"value":weather_data['pop']+'%'},"tips":{"value":weather_data['tips'], "color":get_random_color()},"birthday":{"value":get_gaokao(),"color":"#FF0000"},"note":{"value":get_words(), "color":get_random_color()},"note_en":{"value":en, "color":get_random_color()},"note_th":{"value":zh, "color":get_random_color()}}
 res = wm.send_template(user_id, template_id, data)
 print(res)
+

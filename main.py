@@ -1,5 +1,4 @@
 from datetime import date, datetime
-#import math
 from wechatpy import WeChatClient
 from wechatpy.client.api import WeChatMessage, WeChatTemplate
 import requests
@@ -16,13 +15,7 @@ gaokao = os.environ['GAOKAO']
 app_id = os.environ["APP_ID"]
 app_secret = os.environ["APP_SECRET"]
 user_id = os.environ["USER_ID"]
-#user_ids = [os.environ["USER_ID_1"], os.environ["USER_ID_2"]]
 template_id = os.environ["TEMPLATE_ID"]
-
-#city = '曹县'
-# today = datetime.now()
-# todays = today.strftime('%Y-%m-%d %A')
-#gaokao = '06-07'
 
 def get_random_color():
   return "#%06x" % random.randint(0, 0xFFFFFF)

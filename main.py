@@ -16,7 +16,7 @@ app_id = os.environ["APP_ID"]
 app_secret = os.environ["APP_SECRET"]
 user_ids = os.environ["USER_ID"].split("\n")
 template_id = os.environ["TEMPLATE_ID"]
-th_key = os.environ['TH_TEY']
+th_key = os.environ['TH_KEY']
 
 
 def get_random_color():
